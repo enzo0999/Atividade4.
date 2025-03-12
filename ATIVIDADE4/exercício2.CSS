@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.social-container {
+    display: flex;
+    gap: 20px;
+}
+.social-container a {
+    display: inline-block;
+}
+.social-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+.social-container img:hover {
+    transform: scale(1.1);
+}
